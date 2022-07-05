@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BMI_calculator_test" target="1.5" />
+      <module name="BMI_calculator_test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
