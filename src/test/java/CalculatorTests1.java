@@ -17,8 +17,9 @@ public class CalculatorTests1 {
         driver.findElement(By.name("ht")).sendKeys("180.8");
         driver.findElement(By.name("cc")).click();
         String starvationMessage = driver.findElement(By.name("desc")).getAttribute("value");
-        Assert.assertEquals(starvationMessage, "Your category is Starvation");
         driver.quit();
+        Assert.assertEquals(starvationMessage, "Your category is Starvation");
+
     }
 
     @Test
@@ -30,8 +31,9 @@ public class CalculatorTests1 {
         driver.findElement(By.name("ht")).sendKeys("181.1");
         driver.findElement(By.name("cc")).click();
         String starvationMessage = driver.findElement(By.name("desc")).getAttribute("value");
-        Assert.assertEquals(starvationMessage, "Your category is Underweight");
         driver.quit();
+        Assert.assertEquals(starvationMessage, "Your category is Underweight");
+
     }
 
     @Test
@@ -43,8 +45,9 @@ public class CalculatorTests1 {
         driver.findElement(By.name("ht")).sendKeys("168");
         driver.findElement(By.name("cc")).click();
         String starvationMessage = driver.findElement(By.name("desc")).getAttribute("value");
-        Assert.assertEquals(starvationMessage, "Your category is Normal");
         driver.quit();
+        Assert.assertEquals(starvationMessage, "Your category is Normal");
+
     }
 
     @Test
@@ -56,8 +59,9 @@ public class CalculatorTests1 {
         driver.findElement(By.name("ht")).sendKeys("183");
         driver.findElement(By.name("cc")).click();
         String starvationMessage = driver.findElement(By.name("desc")).getAttribute("value");
-        Assert.assertEquals(starvationMessage, "Your category is Overweight");
         driver.quit();
+        Assert.assertEquals(starvationMessage, "Your category is Overweight");
+
     }
 
     @Test
@@ -69,8 +73,9 @@ public class CalculatorTests1 {
         driver.findElement(By.name("ht")).sendKeys("183");
         driver.findElement(By.name("cc")).click();
         String starvationMessage = driver.findElement(By.name("desc")).getAttribute("value");
-        Assert.assertEquals(starvationMessage, "Your category is Obese");
         driver.quit();
+        Assert.assertEquals(starvationMessage, "Your category is Obese");
+
     }
 
 
