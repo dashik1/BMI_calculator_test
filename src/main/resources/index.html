@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test web page</title>
+    <style>
+        h1 { color: #2A9D8F;
+            font-size: 80px;
+            text-align: center;}
+
+    </style>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<h1 id="welcome" name="h1">Welcome to this amazing page!</h1>
+<h2 id="hello" name="h2" style="color: #E76F51" align="center">It's nice to see you here!</h2>
+<h2 id="name" name="my_name" align="center" style="color: #2A9D8F">My name is Dasha</h2>
+<br>
+<div align="center">
+<div id="table" name="table" class="bluestyle">Please check this awesome table out</div>
+    <table id="country" name="country" border="1" >
+        <tr>
+            <td>Georgia</td>
+            <td>Tbilisi</td>
+        </tr>
+        <tr>
+            <td>Portugal</td>
+            <td>Lisbon</td>
+        </tr>
+        <tr>
+            <td>Norway</td>
+            <td>Oslo</td>
+        </tr>
+    </table>
+
+<br>
+<div id="music" name="music_list">
+    <span class="bluestyle" >This drop down list is incredible, isn't it?</span>
+    <br>
+    <select name="music_list">
+        <option>Imagine Dragons</option>
+        <option>Maneskin</option>
+        <option>Sam Smith</option>
+    </select>
+</div>
+<br>
+<div id="checkbox" name="checkbox" class="orangestyle">Do you like checkboxes as I do?</div>
+<span>Yes</span>
+<input type="checkbox" name="yes" value="yes">
+<br>
+<span>Totally</span>
+<input type="checkbox" name="totally" value="totally">
+<br>
+<span>Absolutely</span>
+<input type="checkbox" name="absolutely" value="absolutely">
+<br>
+<div class="turqstyle" id="link" name="link">
+    If you're ready to leave this page - click <a href="https://yandex.ru/">link</a>
+    <br>
+    If not - click <a href="https://www.google.com/" target="_blank">here</a>
+</div>
+<br>
+<div>
+    <input name="button" id="elem" type="button" value="Click here!!!">
+    <script>
+        elem.onclick = function() {
+            alert('Much appreciated!');};
+    </script>
+</div>
+<br>
+<img id="img_oops" name="img" src="oops.png" alt="oops, you found it">
+
+
+</div>
+</body>
+</html>
